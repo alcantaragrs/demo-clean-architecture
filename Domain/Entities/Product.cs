@@ -82,7 +82,7 @@ namespace Domain.Entities
 
 
             DomainExceptionValidation
-                .When(image.Length > 250, "Invalid image name, too long, maximum 250 characters");
+                .When(image?.Length > 250, "Invalid image name, too long, maximum 250 characters");
         }
     }
 }
