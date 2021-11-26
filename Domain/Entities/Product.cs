@@ -14,9 +14,9 @@ namespace Domain.Entities
         public Category Category { get; set; }
 
         //In a real word project this class would also contain thing like:
-        //Price Polices
-        //Discount Polices
-        //Sales Polices
+        //Price Policies
+        //Discount Policies
+        //Sales Policies
 
         public Product(int id, string name, string description, decimal price, int stock, string image)
         {
