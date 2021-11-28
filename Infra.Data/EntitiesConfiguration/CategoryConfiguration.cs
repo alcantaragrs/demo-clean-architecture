@@ -13,6 +13,12 @@ namespace Infra.Data.EntitiesConfiguration
             builder.Property(x => x.Name)
                 .IsRequired()
                 .HasMaxLength(100);
+
+            builder.HasData(
+                new Category(1, "Material Escolar"),
+                new Category(2, "Eletrônicos"),
+                new Category(3, "Acessórios")
+            );
         }
     }
 }
