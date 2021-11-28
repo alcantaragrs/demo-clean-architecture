@@ -1,7 +1,7 @@
 
 using System;
 
-namespace Domain.Validation
+namespace demo_clean_arc.Domain.Validation
 {
     public class DomainExceptionValidation : Exception
     {

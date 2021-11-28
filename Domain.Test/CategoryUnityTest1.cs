@@ -1,10 +1,10 @@
-using Domain.Entities;
+using demo_clean_arc.Domain.Entities;
 using FluentAssertions;
 using System;
 using Xunit;
-using Domain.Validation;
+using demo_clean_arc.Domain.Validation;
 
-namespace Domain.Test
+namespace demo_clean_arc.Domain.Test
 {
     public class CategoryUnityTest1
     {

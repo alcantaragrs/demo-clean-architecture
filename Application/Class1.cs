@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Application
+namespace demo_clean_arc.Application
 {
     public class Class1
     {

@@ -1,8 +1,8 @@
-using Domain.Entities;
+using demo_clean_arc.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Infra.Data.EntitiesConfiguration
+namespace demo_clean_arc.Infra.Data.EntitiesConfiguration
 {
     public class ProductConfiguration : IEntityTypeConfiguration<Product>
     {

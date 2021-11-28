@@ -1,9 +1,9 @@
 
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Domain.Entities;
+using demo_clean_arc.Domain.Entities;
 
-namespace Domain.Interfaces
+namespace demo_clean_arc.Domain.Interfaces
 {
     public interface ICategoryRepository
     {

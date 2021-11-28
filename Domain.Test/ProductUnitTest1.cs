@@ -1,10 +1,10 @@
 
 using System;
-using Domain.Entities;
+using demo_clean_arc.Domain.Entities;
 using FluentAssertions;
 using Xunit;
 
-namespace Domain.Test
+namespace demo_clean_arc.Domain.Test
 {
     public class ProductUnityTest1
     {

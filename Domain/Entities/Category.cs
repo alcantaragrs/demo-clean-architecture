@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Domain.Validation;
+using demo_clean_arc.Domain.Validation;
 
-namespace Domain.Entities
+namespace demo_clean_arc.Domain.Entities
 {
     public sealed class Category : Entity
     {

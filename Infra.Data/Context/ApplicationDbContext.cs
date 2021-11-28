@@ -1,7 +1,7 @@
-using Domain.Entities;
+using demo_clean_arc.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infra.Data.Context
+namespace demo_clean_arc.Infra.Data.Context
 {
     public class ApplicationDbContext : DbContext
     {

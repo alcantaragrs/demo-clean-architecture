@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Domain.Entities;
-using Domain.Interfaces;
-using Infra.Data.Context;
+using demo_clean_arc.Domain.Entities;
+using demo_clean_arc.Domain.Interfaces;
+using demo_clean_arc.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infra.Data.Repositories
+namespace demo_clean_arc.Infra.Data.Repositories
 {
     public class CategoryRepository : ICategoryRepository
     {
