@@ -1,3 +1,6 @@
+using demo_clean_arc.Application.Interfaces;
+using demo_clean_arc.Application.Mapping;
+using demo_clean_arc.Application.Services;
 using demo_clean_arc.Domain.Interfaces;
 using demo_clean_arc.Infra.Data.Context;
 using demo_clean_arc.Infra.Data.Repositories;
@@ -19,6 +22,11 @@ namespace demo_clean_arc.Infra.IoC
 
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IProductRepository, ProductRepository>();
+
+            services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<ICategoryService, CategoryService>();
+            
+            services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
             return services;
         }
